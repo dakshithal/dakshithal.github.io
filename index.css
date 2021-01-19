@@ -1,0 +1,93 @@
+h1 {
+  color: #111;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  margin: 0 0 0;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.profession {
+  color: #111;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.profession:before {
+  border-top: 1px solid #111;
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.profession span {
+  background: #fdfdfd;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background-color: DodgerBlue;
+}
+
+.flex-item {
+  background-color: #f1f1f1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  height: 600px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.flex-item:hover {
+  transform: scale(1.1);
+  background-color: #a8e67f;
+}
+
+/*Not Used*/
+h2 {
+  color: #111;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0 0 24px;
+  padding: 0 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0 0 48px;
+}
+
+a {
+  color: #990000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
